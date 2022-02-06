@@ -2,10 +2,14 @@ num1 = input('Enter the frist number:')
 v1 = input('Enter +,-,*or/:')
 num2 = input('Enter the second number:')
 if v1 == '+':
-    print(num1+num2)
+    r5 = int(num1)+int(num2)
+    print(r5)
 if v1 == '-':
-    print(num1-num2)
+    r = int(num1)-int(num2)
+    print(r)
 if v1 == '*':
-    print(num1*num2)
+    r2 = int(num1)*int(num2)
+    print(r2)
 if v1 == '/':
-    print(num1/num2)
+    r4 = int(num1)/int(num2)
+    print(r4)
